@@ -1,0 +1,74 @@
+div{
+    background-color: palevioletred;
+    margin: 10px;
+}
+
+span{
+    font-weight: bold;
+}
+
+h1#principal{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    color: palevioletred;
+    background-color: lightpink;
+    border: 2px solid palevioletred;
+}
+
+div.agrupamento{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: pink;
+    background-color: palevioletred;
+    border: 2px solid darkorchid;
+    margin: 10px;
+    padding: 10px;
+}
+
+.bloco1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: violet;
+    color: purple;
+    border: 5px solid lightsteelblue;
+    margin: 15px;
+    padding: 20px;
+    width: 60px;
+    height: 20px;
+}
+
+.bloco2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: lightskyblue;
+    color: darkblue;
+    border: 5px solid blue;
+    margin: 15px;
+    padding: 30px;
+    width: 90px;
+    height: 30px;
+    text-align: center;
+}
+
+.personalizado{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: lightseagreen;
+    border: 2px solid lightgreen;
+    margin: 10px;
+    padding: 20px;
+}
+
+.personalizado :hover{
+    color: whitesmoke;
+    background-color: red;
+}
+
+.pseudo > span{
+    display: none;
+}
+
+.pseudo:hover > span{
+    display: block;
+}
+
+h3::selection{
+    color: gold;
+    background-color: orangered;
+}
